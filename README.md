@@ -11,7 +11,7 @@ This Chrome extension enables quick pasting of a pre-formatted checklist templat
 
 ### Cloning the Repository
 1. **Open Terminal or Command Prompt:**
-   - On Windows, open Command Prompt. On macOS or Linux, open Terminal.
+   - On Windows, open Git Bash or Command Prompt. On macOS or Linux, open Terminal.
 
 2. **Clone the Repository:**
    - Run the following command:
