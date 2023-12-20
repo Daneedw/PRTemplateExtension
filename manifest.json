@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Quick Paste for Specific Domain",
+    "version": "1.0",
+    "description": "Press a hotkey to paste pre-formatted text on a specific domain",
+    "permissions": ["activeTab", "clipboardWrite"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "commands": {
+      "paste": {
+        "suggested_key": {
+            "default": "Alt+Shift+Z",
+            "mac": "Command+Shift+Z"
+          },
+        "description": "Paste pre-formatted text"
+      }
+    }
+}
